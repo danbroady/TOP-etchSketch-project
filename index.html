@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link rel="icon" href="./images/roller-icon.svg">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="./images/roller-icon.svg" height="100px">
+        <h1>Etch-a-Sketch</h1>
+    </header>
+
+
+    <!-- CONTENT -->
+    <main>
+        <div class="options">
+            <div class="opt-items" id="size-label">16 x 16</div>
+            <input class="opt-items" id="size" type="range" min="16" max="128" step="16" value="16"></input>
+            <input class="opt-items" id="colour-picker" type="color" value="#000000"></input>
+            <button class="opt-items" id="colour">Colour mode</button>
+            <button class="opt-items" id="rainbow">Rainbow</button>
+            <button class="opt-items" id="rubber">Rubber</button>
+            <button class="opt-items" id="clear">Clear all</button>
+        </div>
+
+        <div class="grid">
+            
+        </div>
+
+        <div id="spacer"></div>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Created by Dan</p>
+    </footer>
+
+</body>
+</html>
